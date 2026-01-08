@@ -20,7 +20,7 @@ namespace WebApplication_L1.Pages
         public readonly List<Quote> Quotes;
         public Quote ShowQuote { get; set; }
         Random rnd = new Random();
-        public int rand;
+        public int rand; 
         public Task5Model()
         {
             Quotes = new List<Quote>();
